@@ -2,11 +2,11 @@
 // 20200808070 BUSE ÇOBAN 
 
 %%
-numi                                             { printf("TYPE_INTEGER \n"); }
-numf                                           { printf("TYPE_FLOAT \n"); }
+numi                                            { printf("TYPE_INTEGER \n"); }
+numf                                            { printf("TYPE_FLOAT \n"); }
 strc                                            { printf("TYPE_CHAR \n"); }
-str                                          { printf("TYPE_STRING \n"); }
-tf                                            { printf("TYPE_BOOLEAN \n"); }
+str                                             { printf("TYPE_STRING \n"); }
+tf                                              { printf("TYPE_BOOLEAN \n"); }
 
 [+-]?[0-9]+                                     { printf("INTEGER \n"); }
 [+-]?[0-9]*\.[0-9]+                             { printf("FLOATING_POINT \n"); }
@@ -17,10 +17,12 @@ true|false                                      { printf("BOOLEAN \n"); }
 if                                              { printf("IF \n"); }
 else                                            { printf("ELSE \n"); }
 while                                           { printf("WHILE \n"); }
+for                                             { printf("FOR \n"); }
 print                                           { printf("PRINT \n"); }
 scan                                            { printf("SCAN \n"); }
-fnc                                             { printf("FUNCTION \n"); }
-return                                          { printf("RETURN \n"); }
+fn                                              { printf("FUNCTION \n"); }
+ret                                             { printf("RETURN \n"); }
+
 
 
 "=="|"!="|">"|"<"|">="|"<="                     { printf("COMPARISON_OPERATOR \n"); }
