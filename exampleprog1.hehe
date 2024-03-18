@@ -1,0 +1,58 @@
+-- Varible declarations
+numi integerNumber = 10;
+numf floatNumber = 10.5;
+str string = "Hehe is a new programming Language"; 
+strc character = 'a';
+tf boolean = true;
+
+-- Loops
+while(integerNumber<100){
+    print(integerNumber);
+    integerNumber = integerNumber/2;
+}
+
+for(numi i = 0; i<10 & i>0; i++){
+    print(i);
+}
+
+-- Conditional Statements
+if (boolean) {
+  print "If statement works";
+} else {
+  print "Else statement works";
+}
+
+-- User Input
+print ("Enter a number: ");
+scan input;
+
+--Comparison Operations
+if(input>5){
+    print("User entered a number greater than 5.")
+}else if(input<5){
+    print("User entered a number less 5.")
+}else{
+     print("User entered a number equal 5.")
+}
+
+-- Logical Operations
+numi number2 = 12;
+    -- NOT
+    if(!(num2 == 10)){
+        print("Number is not equal to 10");
+    }
+
+    -- OR 
+    if(!(num2 == 10) | !(num2 == 15)){
+        print("Number is not equal to 10 or 15");
+    }
+
+    -- AND 
+    if(!(num2 == 10) & !(num2 == 15)){
+        print("Number is not equal to 10 and 15");
+    }
+
+-- Function 
+numi fnc method(numi a, numi b){
+    ret a + b;
+}
