@@ -1,5 +1,5 @@
-/* 20200808019 İBRAHİM DUMAN
-/* 20200808070 BUSE ÇOBAN 
+// 20200808019 İBRAHİM DUMAN
+// 20200808070 BUSE ÇOBAN 
 
 %%
 numi                                             { printf("TYPE_INTEGER \n"); }
