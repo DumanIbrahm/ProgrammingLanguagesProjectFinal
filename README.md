@@ -186,3 +186,5 @@ print("hehe will be the best programming language because we developed that :) "
 
 ## Conclusion
 - Hehe is a straightforward programming language crafted for simplicity in learning and application. It encompasses fundamental programming structures including variables, functions, conditional statements, loops, and input/output operations. 
+
+make ./hehe < exampleprog1.hehe
