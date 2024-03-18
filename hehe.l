@@ -19,7 +19,7 @@ else                                            { printf("ELSE \n"); }
 while                                           { printf("WHILE \n"); }
 print                                           { printf("PRINT \n"); }
 scan                                            { printf("SCAN \n"); }
-fn                                             { printf("FUNCTION \n"); }
+fnc                                             { printf("FUNCTION \n"); }
 return                                          { printf("RETURN \n"); }
 
 
