@@ -24,6 +24,7 @@ fn                                              { printf("FUNCTION \n"); }
 ret                                             { printf("RETURN \n"); }
 
 
+
 "=="|"!="|">"|"<"|">="|"<="                     { printf("COMPARISON_OPERATOR \n"); }
 "&"                                            { printf("LOGICAL_AND_OPERATOR \n"); }
 "|"                                            { printf("LOGICAL_OR_OPERATOR \n"); }
