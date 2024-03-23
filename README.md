@@ -1,7 +1,7 @@
 # .hehe
 ## Project Group Members
-- 20200808070 Buse Çoban
-- 20200808019 İbrahim Duman
+- [20200808070 Buse Çoban](https://github.com/busecoban)
+- [20200808019 İbrahim Duman](https://github.com/DumanIbrahm)
 
 ## Design of Our Language
 Hehe is a programming language encompassing fundamental features such as variable declarations, assignments, arithmetic and logical operations, conditional statements, iterative constructs, function definitions, and input/output capabilities.
@@ -165,7 +165,7 @@ print(tf + " x is negative ")
   while (x < 13) {
   x = x + 1;
   print(x);
-     }
+  }
 ```
 - Also Hehe supports for loops, which iterate over a sequence of elements and execute a block of statements for each element. The basic syntax is:
 ```
