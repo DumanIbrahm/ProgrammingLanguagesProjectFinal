@@ -791,167 +791,167 @@ do_action:	/* This label is used only to access EOF actions. */
 case 1:
 YY_RULE_SETUP
 #line 12 "hehe.l"
-return TYPE_INTEGER;
+printf("NUMİ - "); return TYPE_INTEGER; 
 	YY_BREAK
 case 2:
 YY_RULE_SETUP
 #line 13 "hehe.l"
-return TYPE_FLOAT;
+printf("NUMF - "); return TYPE_FLOAT;
 	YY_BREAK
 case 3:
 YY_RULE_SETUP
 #line 14 "hehe.l"
-return TYPE_CHAR;
+printf("STRC - "); return TYPE_CHAR;
 	YY_BREAK
 case 4:
 YY_RULE_SETUP
 #line 15 "hehe.l"
-return TYPE_STRING;
+printf("STR - "); return TYPE_STRING;
 	YY_BREAK
 case 5:
 YY_RULE_SETUP
 #line 16 "hehe.l"
-return TYPE_BOOLEAN;
+printf("TF - "); return TYPE_BOOLEAN;
 	YY_BREAK
 case 6:
 YY_RULE_SETUP
 #line 18 "hehe.l"
-return INTEGER;
+printf("INTEGER - "); return INTEGER; 
 	YY_BREAK
 case 7:
 YY_RULE_SETUP
 #line 19 "hehe.l"
-return FLOATING_POINT;
+printf("FLOATING_POINT - "); return FLOATING_POINT;
 	YY_BREAK
 case 8:
 YY_RULE_SETUP
 #line 20 "hehe.l"
-return CHARACTER;
+printf("CHARACTER - "); return CHARACTER; 
 	YY_BREAK
 case 9:
 YY_RULE_SETUP
 #line 21 "hehe.l"
-return STRING;
+printf("STRING - "); return STRING;
 	YY_BREAK
 case 10:
 YY_RULE_SETUP
 #line 22 "hehe.l"
-return TRUE; 
+printf("TRUE - "); return TRUE;
 	YY_BREAK
 case 11:
 YY_RULE_SETUP
 #line 23 "hehe.l"
-return FALSE; 
+printf("FALSE - "); return FALSE;
 	YY_BREAK
 case 12:
 YY_RULE_SETUP
 #line 27 "hehe.l"
-return IF;
+printf("IF - "); return IF;
 	YY_BREAK
 case 13:
 YY_RULE_SETUP
 #line 28 "hehe.l"
-return ELSE;
+printf("ELSE - "); return ELSE;
 	YY_BREAK
 case 14:
 YY_RULE_SETUP
 #line 29 "hehe.l"
-return WHILE;
+printf("WHILE - "); return WHILE;
 	YY_BREAK
 case 15:
 YY_RULE_SETUP
 #line 30 "hehe.l"
-return FOR;
+printf("FOR - "); return FOR; 
 	YY_BREAK
 case 16:
 YY_RULE_SETUP
 #line 31 "hehe.l"
-return PRINT;
+printf("PRINT - "); return PRINT;
 	YY_BREAK
 case 17:
 YY_RULE_SETUP
 #line 32 "hehe.l"
-return SCAN;
+printf("SCAN - "); return SCAN;
 	YY_BREAK
 case 18:
 YY_RULE_SETUP
 #line 33 "hehe.l"
-return FUNCTION;
+printf("FUNCTION - "); return FUNCTION;
 	YY_BREAK
 case 19:
 YY_RULE_SETUP
 #line 34 "hehe.l"
-return RETURN;
+printf("RETURN - "); return RETURN;
 	YY_BREAK
 case 20:
 YY_RULE_SETUP
 #line 38 "hehe.l"
-return COMPARISON_OPERATOR; 
+printf("COMPARISON_OPERATOR - "); return COMPARISON_OPERATOR;
 	YY_BREAK
 case 21:
 YY_RULE_SETUP
 #line 39 "hehe.l"
-return LOGICAL_AND_OPERATOR; 
+printf("LOGICAL_AND_OPERATOR - "); return LOGICAL_AND_OPERATOR;
 	YY_BREAK
 case 22:
 YY_RULE_SETUP
 #line 40 "hehe.l"
-return LOGICAL_OR_OPERATOR; 
+printf("LOGICAL_OR_OPERATOR - "); return LOGICAL_OR_OPERATOR; 
 	YY_BREAK
 case 23:
 YY_RULE_SETUP
 #line 41 "hehe.l"
-return LOGICAL_NOT_OPERATOR; 
+printf("LOGICAL_NOT_OPERATOR - "); return LOGICAL_NOT_OPERATOR;
 	YY_BREAK
 case 24:
 YY_RULE_SETUP
 #line 44 "hehe.l"
-return IDENTIFIER;
+printf("IDENTIFIER - "); return IDENTIFIER;
 	YY_BREAK
 case 25:
 YY_RULE_SETUP
 #line 45 "hehe.l"
-return LEFT_PARENTHESIS; 
+printf("LEFT_PARENTHESIS - "); return LEFT_PARENTHESIS;
 	YY_BREAK
 case 26:
 YY_RULE_SETUP
 #line 46 "hehe.l"
-return RIGHT_PARENTHESIS; 
+printf("RIGHT_PARENTHESIS - "); return RIGHT_PARENTHESIS;
 	YY_BREAK
 case 27:
 YY_RULE_SETUP
 #line 47 "hehe.l"
-return LEFT_BRACE; 
+printf("LEFT_BRACE - "); return LEFT_BRACE;
 	YY_BREAK
 case 28:
 YY_RULE_SETUP
 #line 48 "hehe.l"
-return RIGHT_BRACE; 
+printf("RIGHT_BRACE - "); return RIGHT_BRACE;
 	YY_BREAK
 case 29:
 YY_RULE_SETUP
 #line 49 "hehe.l"
-return SEMICOLON; 
+printf("SEMICOLON - "); return SEMICOLON;
 	YY_BREAK
 case 30:
 YY_RULE_SETUP
 #line 50 "hehe.l"
-return ASSIGNMENT_OPERATOR;
+printf("ASSIGNMENT_OPERATOR - "); return ASSIGNMENT_OPERATOR;
 	YY_BREAK
 case 31:
 YY_RULE_SETUP
 #line 51 "hehe.l"
-return COMMA; 
+printf("COMMA - "); return COMMA;
 	YY_BREAK
 case 32:
 YY_RULE_SETUP
 #line 52 "hehe.l"
-return ARITHMETIC_OPERATOR; 
+printf("ARITHMETIC_OPERATOR - "); return ARITHMETIC_OPERATOR;
 	YY_BREAK
 case 33:
 YY_RULE_SETUP
 #line 54 "hehe.l"
-return COLON;
+printf("COLON - "); return COLON;
 	YY_BREAK
 case 34:
 YY_RULE_SETUP
@@ -967,7 +967,7 @@ YY_RULE_SETUP
 case 36:
 YY_RULE_SETUP
 #line 61 "hehe.l"
-return CHARACTER;
+printf("CHARACTER - "); return CHARACTER;
 	YY_BREAK
 case 37:
 YY_RULE_SETUP

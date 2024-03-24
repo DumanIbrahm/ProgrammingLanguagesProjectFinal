@@ -5,7 +5,7 @@ extern int yylex();
 extern int yylineno;
 extern char* yytext;
 
-char *names[] = {NULL, "numi","numf","strc","str","tf"};
+char *names[] = {NULL,"numi","numf","strc","str","tf"};
 
 int main(void){
 	int ntoken, vtoken;
